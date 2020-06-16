@@ -1,0 +1,52 @@
+.center-box {
+    height: 285px;
+    width: 1045px;
+    background-color: rgb(0, 16, 124);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-item {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 227, 186);
+}
+
+img {
+    height: 64px;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin-left: 35px;
+}
+
+ul {
+    display: flex;
+    justify-content: stretch;
+    margin-left: 60px;
+}
+
+li {
+    list-style: none;
+    margin-right: 88px;
+    display: inline;
+}
+
+li > a { 
+    color: white;
+    text-decoration: none;
+}
+
+div {
+    background-color: rgb(74, 152, 232);
+    color: white;
+    height: 97px;
+    width: 1180px;
+    font-family: "Montserrat", "monospace";
+
+    display: flex;
+    align-items: center;
+}
